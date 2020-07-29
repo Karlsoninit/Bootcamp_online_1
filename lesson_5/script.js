@@ -1,5 +1,5 @@
-import "./monday.js";
-
+// import "./monday.js";
+import "./classes.js";
 // const father = {
 //   lastName: "Bond",
 // };
@@ -109,4 +109,33 @@ import "./monday.js";
 
 // // call
 // console.log(mango);
-// // sell(product: any): string
+// sell(product: any): string
+// const Hero = function (name, xp) {
+//   this.name = name;
+//   this.xp = xp;
+// };
+
+// const Famaly = function (name, lastName) {
+//   this.name = name;
+//   this.lastName = lastName;
+// };
+
+// const father = new Famaly("James", "Bond");
+
+// console.log(father);
+
+// Famaly.prototype.aboutUser = function () {
+//   console.log(`user name :${this.name}, user last name ${this.lastName}`);
+// };
+
+// father.aboutUser();
+
+// const Son = function (name) {
+//   Famaly.call(this, name);
+// };
+
+// Son.prototype.constructor = Son;
+
+// const son = new Son("Kent");
+
+// console.log(son);
