@@ -1,0 +1,10 @@
+.linkFocusColor {
+  font-weight: bold;
+  color: red;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+}
